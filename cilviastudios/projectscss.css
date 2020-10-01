@@ -1,0 +1,372 @@
+@font-face {
+    font-family: "ApercuProBold";
+    src: url(Fonts/Apercu\ Pro\ Bold.otf);
+    
+}
+
+@font-face {
+    font-family: "ApercuProMedium";
+    src: url(Fonts/Apercu\ Pro\ Medium.otf);
+}
+
+@font-face {
+    font-family: "ApercuProMono";
+    src: url(Fonts/Apercu\ Pro\ Mono.otf);
+}
+
+@font-face {
+    font-family: "ApercuProRegular";
+    src: url(Fonts/Apercu\ Pro\ Regular.otf);
+}
+
+@font-face {
+    font-family: "EurostileBlackItalic";
+    src: url(Fonts/AnyConv.com__Eurostile-Black\ Italic.otf);
+}
+@font-face {
+    font-family: "TiffanyStdDemi";
+    src: url(Fonts/TiffanyStd-Demi.otf);
+}
+
+
+html, body { 
+    width: 100%;
+    scroll-behavior: smooth;}
+    
+body { 
+    overflow-x: hidden;
+}
+
+header {
+    z-index: 1;
+    top: 0px;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+main {
+    background:white;
+    top: 0px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 10vw;
+}
+
+header ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.6vw;
+}
+
+header ul li {
+    display:inline;
+    margin: 0.6vw;
+
+}
+
+body ul {
+    list-style-type: none;
+}
+
+header nav {
+    text-align: right;
+}
+
+button {
+    border-style: none;
+}
+
+.cilvia-header { 
+    padding-top: 0px; 
+}
+
+.title-list {
+    margin-left: 2vw;
+    margin-top:1.3vw;
+}
+
+.title-list a {
+    text-decoration: none;
+    color: inherit;
+    z-index: 0;
+}
+.title-list a:hover{
+    color: white;
+}
+
+#CilviaOne {
+    font-family: "ApercuProBold";
+    font-size: 2.4vw;
+}
+
+#CilviaOne:focus {
+    color:white;
+}
+
+#CilviaTwo {
+    font-family: "EurostileBlackItalic";
+    font-size: 27pt;
+}
+#CilviaThree {
+    font-family: "TiffanyStdDemi";
+    font-size: 25pt;
+}
+/* 
+#heading-line { 
+    position: absolute;
+    background-color: black;
+    left: 0;
+    margin-left: 40px;
+    margin-top: 75px;
+    width:94.5%;
+    height: 3px;
+    z-index: 1;
+} */
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0% ; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: black; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden;
+    padding-top: 4vw; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    padding-top:21vw;
+    transition: 0.8s;
+}
+ 
+/* The navigation menu links */
+#about, #contact, #magazine, #projects {
+    margin-top: -1.5vw;
+    padding: 2vw 0.4vw 0.4vw 2vw;
+    text-decoration: none;
+    font-family: "ApercuProBold";
+    font-size: 2.2vw;
+    color:white;
+    display: block;
+    transition: 0.3s;
+    text-align: center;   
+}
+
+#copyright {
+    font-family: "ApercuProMono";
+    color: white;
+    text-align: center;
+    display: block;
+    margin-top: 4.5vw;
+    font-size: 1.1vw;
+    transition: 0.3s;
+    margin-left: 2vw;
+}
+ 
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, #about:hover, #contact:hover, #magazine:hover, #projects:hover {
+    color: #ffd451;
+}
+
+#circle-base:focus {
+    background-color: #ffd451;
+}
+
+#circle-nav:focus {
+    background-color: #ffd451;
+}
+
+#circle-nav:hover {
+    background-color: #ffd451;
+}
+ 
+/* Position and style the close button (top right corner) */
+.closebtn, .circle-area {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    margin-top: 2.5vw;
+    right: 0px;
+    margin-right: 2.7vw;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%
+}
+
+.circle-area {
+    background-color: black; 
+}
+
+.circle-area:hover {
+    background-color: #ffd451;
+}
+
+#photoblock {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height:826px;
+    background-color: transparent;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+    /* height:auto; */
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+}
+
+#mission {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    background-color: #ffd451;
+    font-family: "TiffanyStdDemi";
+    height: 826px;
+}
+/* 
+#mission-moinor {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    background-color: #ffd451;
+    font-family: "TiffanyStdDemi";
+    height: 896px;
+} */
+
+h1 {
+    position: absolute;
+    top: 8vw;
+    left: 5vw;
+    color:black;
+    font-size: 7vw;
+}
+
+
+h4 {
+    font-family: "ApercuProMedium";
+    /* font-weight: bold; */
+    position: absolute;
+    top: 25vw;
+    left: 5vw;
+    color:black;
+    font-size: 3vw;
+    width: 70%;
+}
+#project-blocks {
+
+    position: absolute;
+    top:826px;
+    width: 100%;
+    left: 0px;
+}
+.blocks {
+    width: 35vw;
+    height: 35vw;
+}
+
+/* .blocks img {
+    width: 500px;
+    height: 500px;
+} */
+
+#block1 {
+    position: absolute;
+    left: 110px;
+    top: 110px;
+}
+#block2 {
+    position: absolute;
+    right: 110px;
+    top: 110px;
+}
+#block3 {
+    position: absolute;
+    left: 110px;
+    top: 720px;
+}
+#block4 {
+    position: absolute;
+    right: 110px;
+    top: 720px;
+}
+#block5 {
+    position: absolute;
+    left: 110px;
+    top: 1330px;
+}
+#block6 {
+    position: absolute;
+    right: 110px;
+    top: 1330px;
+    padding-bottom: 110px;
+    border-color: none;
+}
+.blocks a {
+    font-family: "TiffanyStdDemi";
+    color: white;
+    font-size: 40px;
+    opacity: 0;
+    transition: 0.3s;
+}   
+
+#mstool {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.blocks:hover a {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1300px) {
+    .blocks {
+        width: 45vw;
+        height: 45vw;
+    }
+    #block1 {
+        position: absolute;
+        left: 28%;
+        top: 5vw;
+    }
+    #block2 {
+        position: absolute;
+        left: 28%;
+        top: 60vw;
+    }
+    #block3 {
+        position: absolute;
+        left: 28%;
+        top: 115vw;
+    }
+    #block4 {
+        position: absolute;
+        left: 28%;
+        top: 170vw;
+    }
+    #block5 {
+        position: absolute;
+        left: 28%;
+        top: 225vw;
+        
+    }
+    #block6 {
+        position: absolute;
+        left: 30%;
+        top: 280vw;
+        padding-bottom: 110px;
+    }
+}

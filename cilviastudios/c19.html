@@ -1,0 +1,104 @@
+<!doctype html>
+<head>
+    <html lang="en-gb">
+    <meta charset="utf-8">
+    <title>CILVIA STUDIOS</title>
+    <link rel="stylesheet" href="./c19.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="module" src="./c19.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+</head>
+
+<body>
+    <header  id="site-header" class="cilvia-header" role="banner" data-aos="fade">
+        <ul class="title-list">
+            <li tabindex="0" id="CilviaOne"><a id="CilviaOnelink" href="index.html" title="home">CILVIA STUDIOS</a></li>
+        </ul>
+        <span id="heading-line"></span>
+        <div> 
+            <button class="circle-area" id="circle-base"></button>
+            <div id="sideNavigation" class="sidenav" tabindex="0">
+                <button class="closebtn" id="circle-nav"></button>
+                <nav id="nav-test" tabindex="0">
+                    <a id="about" class ="nav-list" href="#">About</a>
+                    <a id ="projects" class ="nav-list" href="./projects.html">Projects</a>
+                    <a id="magazine" class ="nav-list" href="#">Magazine</a>
+                    <a id="contact" class ="nav-list" href="#contact-us">Contact</a>
+                    <a id="copyright" class ="nav-list">&copy; CILVIA STUDIOS 2020</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main id="main">
+        <div id="mainphoto" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="700">
+            <img src="./images/squares/C19sqr.png">
+        </div>
+        <div id="info" data-aos="fade-left" data-aos-duration="700">
+            <h1>C19 Temperature Gun</h1>
+        </div>
+        <a id="copytag" data-aos="fade-left" data-aos-duration="700">&copy; MUSTAFA AL QURAISHI, CILVIA STUDIOS 2020</a>
+        <div>
+            <p id="description" data-aos="fade-left" data-aos-duration="700">
+                Although not common in the UK, temperature guns are being used in areas such as China
+                 to monitor potential virus carriers in public. The issue is is that they are notoriously 
+                 inaccurate, due to the fact that the environment ie. dust and holding the gun away from 
+                 the subject at an incorrect distance leads to faulty readings. </break>
+
+                This designs mitigates the issue of incorrect distance readings, and thus provides 
+                consistent accurate readings from long and short range readings. This is achieved by 
+                the use of ultrasonic driver and a dielectric lens to measure the correct distance of 
+                the object to the camera, using this information to change the refraction index of the 
+                lens and thus focus the lasers to a single point, ensuring the operator that they are 
+                operating at a correct distance and thus the main body thermal sensor camera can take an 
+                accurate reading. The back main screen will display a red/green feedback relative to a 
+                temperature too high or low set by the operator, set by the rotating dial. Enabling quick 
+                reading of public and thus reducing the occurrence of potential virus carriers moving around in public. </break>
+
+                The design features a USB-C port for charging and data extraction, a single press capture button and a on/off 
+                swivel dial on the lateral side, this dial can be designed to enable operation in various modes. 
+                Although it was an aim to avoid the form of a gun shape, it was found to be the most easy to handle 
+                for constant operation, the features are minimal and dialled to provide a sleek, tech product. 
+            </p>
+            <button id="buttonbehance" data-aos="fade-left" data-aos-duration="700">
+                <a href="https://www.behance.net/gallery/95642469/Autofocus-Thermal-Imaging-Gun-%282020%29">
+                    View project on Behance</a>
+            </button>
+            
+        </div>
+        <div id="usersection" data-aos="fade">
+            <div id="commentsubmission">
+                <span id="commentline"></span>
+                <p id="comment-here">Comment Here<p>
+                <textarea id="name" rows="2" cols="35" placeholder="Name"></textarea>
+                <!-- <textarea id="email"  rows="2" cols="35" placeholder="Email"></textarea> -->
+                <textarea id ="feedback" rows="8" cols="68" wrap="hard" placeholder="Feedback here..."></textarea>
+                <button id="commentbutton">Comment</button>
+                <div id="bottompaddingcomment"></div>
+            </div>
+
+            <div id="userpanel">
+                <p id="nocomments">0 Comments</p>
+                <div id="commentpanel">
+                    <section class="commentsection" id="usercomments">
+                        <template id="user-comment">
+                            <p name ="username" id = "commentname" autocomplete ="yes"></p>
+                            <p name="comment" id = "thecomment" class="from-user"></p>
+                            <p name="seperator" id="indicommentline"></p>
+                        </template>
+                    </section>
+                    <div id="bottompadding"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>

@@ -1,0 +1,87 @@
+<!doctype html>
+<head>
+    <html lang="en-gb">
+    <meta charset="utf-8">
+    <title>CILVIA STUDIOS</title>
+    <link rel="stylesheet" href="./stool.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="module" src="./stoolmain.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+</head>
+
+<body>
+    
+    <header  id="site-header" class="cilvia-header" role="banner" data-aos="fade">
+        <ul class="title-list">
+            <li tabindex="0" id="CilviaOne"><a id="CilviaOnelink" href="index.html" title="home">CILVIA STUDIOS</a></li>
+        </ul>
+        <span id="heading-line"></span>
+        <div> 
+            <button class="circle-area" id="circle-base"></button>
+            <div id="sideNavigation" class="sidenav" tabindex="0">
+                <button class="closebtn" id="circle-nav"></button>
+                <nav id="nav-test" tabindex="0">
+                    <a id="about" class ="nav-list" href="#">About</a>
+                    <a id ="projects" class ="nav-list" href="./projects.html">Projects</a>
+                    <a id="magazine" class ="nav-list" href="#">Magazine</a>
+                    <a id="contact" class ="nav-list" href="#contact-us">Contact</a>
+                    <a id="copyright" class ="nav-list">&copy; CILVIA STUDIOS 2020</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main id="main">
+        <div id="mainphoto" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="700">
+            <img src="./images/squares/mechstool_2020-Apr-20_06-30-57PM-000_CustomizedView25515546757_jpg.jpeg">
+        </div>
+        <div id="info" data-aos="fade-left" data-aos-duration="700">
+            <h1>MECHANICAL STOOL </h1>
+        </div>
+        <a id="copytag" data-aos="fade-left" data-aos-duration="700">&copy; MUSTAFA AL QURAISHI, CILVIA STUDIOS 2020</a>
+        <div>
+            <p id="description" data-aos="fade-left" data-aos-duration="700">This project devolved from a desire to try my hand at creating a piece of furniture. The nature of this stool consists of a stripped back minimalist look akin to a brutalist/modernist era piece. Composed entirely of an aluminium, the stool would be cold to the touch, and provide little cushioning to the user. Challenging our expectations of furniture in general, are we designing something for someone to sit on? Or to just admire the thought of sitting on it?
+
+                The chair angle and height is adjusted by the use of twist lock dials indicated by the textured grips located beneath the seat and at the mid point of the frame. </p>
+            <button id="buttonbehance" data-aos="fade-left" data-aos-duration="700"><a href="https://www.behance.net/gallery/95974895/Mechanical-Stool-%282020%29">View project on Behance</a></button>
+            
+        </div>
+        <div id="usersection" data-aos="fade">
+            <div id="commentsubmission">
+                <span id="commentline"></span>
+                <p id="comment-here">Comment Here<p>
+                <textarea id="name" rows="2" cols="35" placeholder="Name"></textarea>
+                <!-- <textarea id="email"  rows="2" cols="35" placeholder="Email"></textarea> -->
+                <textarea id ="feedback" rows="8" cols="68" wrap="hard" placeholder="Feedback here..."></textarea>
+                <button id="commentbutton">Comment</button>
+                <div id="bottompaddingcomment"></div>
+            </div>
+
+            <div id="userpanel">
+                <p id="nocomments">0 Comments</p>
+                <div id="commentpanel">
+                    <section class="commentsection" id="usercomments">
+                        <template id="user-comment">
+                            <p name ="username" id = "commentname" autocomplete ="yes"></p>
+                            <p name="comment" id = "thecomment" class="from-user"></p>
+                            <p name="seperator" id="indicommentline"></p>
+                        </template>
+                    </section>
+                    <div id="bottompadding"></div>
+                </div>
+            </div>
+    
+        </div>
+        
+    </main>
+    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>

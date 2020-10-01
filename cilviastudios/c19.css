@@ -1,0 +1,428 @@
+@font-face {
+    font-family: "ApercuProBold";
+    src: url(Fonts/Apercu\ Pro\ Bold.otf);
+    
+}
+
+@font-face {
+    font-family: "ApercuProMedium";
+    src: url(Fonts/Apercu\ Pro\ Medium.otf);
+}
+
+@font-face {
+    font-family: "ApercuProMono";
+    src: url(Fonts/Apercu\ Pro\ Mono.otf);
+}
+
+@font-face {
+    font-family: "ApercuProRegular";
+    src: url(Fonts/Apercu\ Pro\ Regular.otf);
+}
+
+@font-face {
+    font-family: "EurostileBlackItalic";
+    src: url(Fonts/AnyConv.com__Eurostile-Black\ Italic.otf);
+}
+@font-face {
+    font-family: "TiffanyStdDemi";
+    src: url(Fonts/TiffanyStd-Demi.otf);
+}
+
+/* [aos="fade"] {
+    opacity: 0;
+    transition-property: opacity;
+  }
+  
+[aos="fade"].aos-animate {
+    opacity: 1;
+} */
+
+
+html, body { 
+    width: 100%;
+    scroll-behavior: smooth;}
+    
+body { 
+    overflow-x: hidden;
+}
+
+header {
+    background: #6759f3;
+    top: 0px;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+main {
+    background:white;
+    top: 80px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+/* footer {
+    background:black;
+    top:2260px;
+    bottom: 0;
+    height: 140px;
+    left: 0;
+    line-height: 1;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+} */
+
+
+header ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+header ul li {
+    display:inline;
+    margin:0.3em;
+
+}
+
+body ul {
+    list-style-type: none;
+}
+
+header nav {
+    text-align: right;
+}
+
+button {
+    border-style: none;
+}
+
+.cilvia-header { 
+    padding-top: 0px; 
+    background-color: transparent;
+}
+
+.title-list {
+    margin-left: 1.5vw;
+}
+
+.title-list a {
+    text-decoration: none;
+    color: inherit;
+    z-index: 0;
+}
+
+#CilviaOne {
+    font-family: "EurostileBlackItalic";
+    font-size: 27pt;
+    color: black;
+}
+
+#CilviaOne:focus {
+    color:white;
+}
+#CilviaOne:hover {
+    color:#ffd451;
+}
+
+
+#heading-line { 
+    position: absolute;
+    background-color: black;
+    left: 0;
+    margin-left: 3.2%;
+    margin-top: 75px;
+    width:93.6%;
+    height: 3px;
+    z-index: 0;
+}
+
+.circle-area {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 40px;
+    margin-top:-60px;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0% ; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: black; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden;
+    padding-top: 100px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    padding-top: 300px;
+    transition: 0.8s;
+}
+ 
+/* The navigation menu links */
+#about, #contact, #magazine, #projects {
+    margin-top: -20px;
+    padding: 30px 8px 8px 20px;
+    text-decoration: none;
+    font-family: "ApercuProBold";
+    font-size: 30px;
+    color:white;
+    display: block;
+    transition: 0.3s;
+    text-align: center;   
+}
+
+#copyright {
+    font-family: "ApercuProMono";
+    color: white;
+    text-align: center;
+    display: block;
+    margin-top: 60px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+ 
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, #about:hover, #contact:hover, #magazine:hover, #projects:hover {
+    color: #ffd451;
+}
+
+#circle-base:focus {
+    background-color: #ffd451;
+}
+
+#circle-nav:focus {
+    background-color: #ffd451;
+}
+
+#circle-nav:hover {
+    background-color: #ffd451;
+}
+ 
+/* Position and style the close button (top right corner) */
+.closebtn {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    margin-top: 32px;
+    right: 0px;
+    margin-right: 40px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.circle-area {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    margin-top: 32px;
+    right: 0px;
+    margin-right: 40px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;  
+}
+
+.circle-area:hover {
+    background-color: #ffd451;
+}
+#mainphoto {
+    width: 42vw;
+    height: 42vw;
+    margin-top: 4vw;
+    margin-left: 3.2vw;
+}
+
+#mainphoto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#info {
+    font-family: "ApercuProBold";
+    font-size: 2vw;
+    position: absolute;
+    margin-left: 48vw;
+    margin-top: 0.5vw;
+    top: 0px;
+}
+
+#copytag {
+    font-family: "ApercuProMedium";
+    font-size: 1.5vw;
+    position: absolute;
+    margin-left: 48vw;
+    margin-top: 8vw;
+    top: 0px;
+}
+#description {
+    position: absolute;
+    margin-left: 48vw;
+    top: 11vw;
+    margin-top: 0vw;
+    width: 48%;
+    font-family: "ApercuProMedium";
+    font-size: 1.1vw;
+}
+#buttonbehance {
+    position: absolute;
+    margin-left: 48vw;
+    top: 38vw;
+    margin-top: 0vw;
+    width: 15vw;
+    height: 3.5vw;
+    border-radius: 3vw 3vw 3vw 3vw;
+    font-family: "ApercuProMedium";
+    font-size: 1vw;
+    background-color: #053eff;
+    color: white;
+}
+button a {
+    color: white;
+}
+button a:visited {
+    color: inherit;
+
+}
+
+#commentsubmission {
+    position: absolute;
+    top: 0;
+    margin-top: 50vw;
+    width: 100%;
+}
+
+#commentline { 
+    position: absolute;
+    background-color: lightgrey;
+    left: 0;
+    margin-left: 3.2vw;
+    width:94.5%;
+    height: 3px;
+}
+
+textarea {
+    resize: none;
+    font-family: "ApercuProMedium";
+    font-size: 1.1vw;
+}
+
+#comment-here {
+    position: absolute;
+    font-family: "ApercuProMedium";
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    margin-left: 3.2vw;
+    font-weight: bold;
+}
+
+
+#name {
+    position: absolute;
+    margin-left: 3.2vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    top: 5vw;
+    width: 20vw;
+    height: 1.2vw;
+}
+/* #email {
+    position: absolute;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    top: 150px;
+} */
+
+#feedback {
+    width: 40vw;
+    height: 10vw;
+    position: absolute;
+    margin-left: 3.2vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    top:10vw;
+}
+
+#commentbutton {
+    width: 10vw;
+    height: 3vw;
+    position: absolute;
+    margin-left: 3.2vw;
+    top: 23vw;
+    font-family: "ApercuProMedium";
+    font-size: 1.2vw;
+    background-color: black;
+    color: white;
+    /* border-radius: 50px 50px 50px 50px; */
+    border-radius: 0.7vw 0.7vw 0.7vw 0.7vw;
+
+}
+
+#userpanel {
+    position: absolute;
+    top:0;
+    margin-top: 50vw;
+    left: 48vw;
+    width: 48vw;
+
+}
+
+#nocomments {
+    position: absolute;
+    font-family: "ApercuProMedium";
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    font-weight: bold;
+}
+
+#commentpanel {
+    position: absolute;
+    /* background-color: mediumvioletred; */
+    top: 5vw;
+    width: 48vw;
+}
+#usercomments {
+    font-family: "ApercuProMedium";
+}
+#commentname {
+    font-size:1.3vw;
+    font-weight: bold;
+}
+#thecomment {
+    /* font-family: "ApercuProMono"; */
+    font-size: 1.1vw;
+}
+#indicommentline {
+    height: 2px;
+    width: 50vw;
+    background-color:lightgray;
+}
+
+/* #commentsubmission  {
+    width: 300px;
+    background-color: tomato;
+    bottom: 0;
+    padding-bottom: 50px;
+} */
+
+#bottompadding {
+    background-color:white;
+    height: 20px;
+}
+
+#bottompaddingcomment {
+    position: relative;
+    background-color: white;
+    height: 20px;
+    width: 100%;
+    top: 400px;
+}

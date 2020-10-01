@@ -1,0 +1,719 @@
+
+@font-face {
+    font-family: "ApercuProBold";
+    src: url(Fonts/Apercu\ Pro\ Bold.otf);
+    
+}
+
+@font-face {
+    font-family: "ApercuProMedium";
+    src: url(Fonts/Apercu\ Pro\ Medium.otf);
+}
+
+@font-face {
+    font-family: "ApercuProMono";
+    src: url(Fonts/Apercu\ Pro\ Mono.otf);
+}
+
+@font-face {
+    font-family: "ApercuProRegular";
+    src: url(Fonts/Apercu\ Pro\ Regular.otf);
+}
+
+@font-face {
+    font-family: "EurostileBlackItalic";
+    src: url(Fonts/AnyConv.com__Eurostile-Black\ Italic.otf);
+}
+@font-face {
+    font-family: "TiffanyStdDemi";
+    src: url(Fonts/TiffanyStd-Demi.otf);
+}
+
+html, body { 
+    width: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+    
+/* #6759f3 old blue colour*/
+header {
+    background-color:#7669F4;
+    top: 0px;
+    height: 6vw;
+    left: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+main {
+    background: white;
+    top: 6vw;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+footer {
+    background:black;
+    top:157vw;
+    bottom: 0;
+    /* height: 1vw; */
+    left: 0;
+    line-height: 1;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+
+header ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.6vw;
+}
+
+header ul li {
+    display:inline;
+    margin: 0.6vw;
+
+}
+
+body ul {
+    list-style-type: none;
+}
+
+header nav {
+    text-align: right;
+}
+
+button {
+    border-style: none;
+}
+
+.cilvia-header { 
+    padding-top: 0px; 
+}
+
+.title-list {
+    margin-left: 2vw;
+    margin-top:1.3vw;
+}
+
+.title-list a {
+    text-decoration: none;
+    color: inherit;
+    z-index: 0;
+}
+.title-list a:hover{
+    color: white;
+}
+
+#CilviaOne {
+    font-family: "ApercuProBold";
+    font-size: 2.4vw;
+}
+
+#CilviaOne:focus {
+    color:white;
+}
+
+#CilviaTwo {
+    font-family: "EurostileBlackItalic";
+    font-size: 2.6vw;
+}
+#CilviaThree {
+    font-family: "TiffanyStdDemi";
+    font-size: 2.4vw;
+}
+
+#heading-line { 
+    position: absolute;
+    background-color: black;
+    left: 0;
+    margin-left: 3.2%;
+    top: 5.2vw;
+    width:93.6%;
+    height: 0.22vw;
+    z-index: 0;
+}
+
+#top-message {
+    font-family: "TiffanyStdDemi";
+    font-size: 4vw;
+    background-color:#7669F4;
+    position: absolute;
+    top: 0px;
+}
+#top-message {
+    height: 36vw;
+}
+
+.statement-message {
+    margin-top: 4vw;
+    margin-left: 4vw;
+    width: 68%;
+}
+
+#art,
+#engineering {
+    color: white;
+}
+.lets-grab-coffee a {
+    color: white;
+}
+.lets-grab-coffee a:visited {
+    text-decoration: none;    
+}
+
+.lets-grab-coffee {
+    font-family: "ApercuProBold";
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    margin-left: 4vw;
+}
+
+
+#project-tile {
+    position: absolute;
+    top: 36vw;
+    width:50%;
+    /* background-color:#ffd451; */
+    background-color: #8DAAEF;
+    height: 32vw;
+    transition: 0.4s;
+    /* display: flex;
+    align-items: center;
+    justify-content: center  */
+    
+}
+#project-names {
+    /* position: absolute;
+    top: 36vw;
+    width:50%;
+    height: 32vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style: inside;
+}
+
+.project-titles {
+    font-family: "TiffanyStdDemi";
+    font-size: 3vw;
+    margin-right: 4.5vw;
+    text-align: center;
+    text-decoration: none;
+    /* list-style: inside; */
+    margin-top: 3.5vw;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center  */
+}
+
+.project-titles a:hover, .project-titles li:hover, .project-titles li:focus {
+    color:white;
+}
+.project-titles a {
+    text-decoration: none;
+    color: black;
+}
+.project-titles a:visited {
+    color: inherit;
+}
+.project-titles a:active {
+    color: inherit;
+}
+
+.graphic-tile {
+    position: absolute;
+    top: 68vw;
+    width: 50%;
+    right: 0;
+    height: 27vw;
+    background-color:#7669F4;
+    max-width: 50%;
+    left: 50%;
+}
+
+.projects {
+    font-family: "ApercuProBold";
+    line-height: 2vw; 
+    letter-spacing: 0.02vw; 
+    font-size: 1.5vw; 
+    margin-left: 3.2vw;
+    margin-top: 2vw;
+}
+
+.graphic-design {
+    font-family: "ApercuProBold";
+    line-height: 2vw; 
+    letter-spacing: 0.02vw; 
+    font-size: 1.5vw; 
+}
+
+.graphic-tile img {
+    position: absolute;
+}
+.graphic-title {
+    position: absolute;
+    top: 68.5vw;
+    left: 50%;
+    margin-left: 3.2vw;
+
+}
+
+.project-photos {
+    position: absolute;
+    top: 36vw;
+    width: 50%;
+    right: 0;
+    height: 32vw;
+    background-color: black;
+    transition: 0.4s;
+    object-fit: cover;
+}
+#base-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.magazine {
+    position: absolute;
+    background-color:#7669F4;
+    width: 50%;
+    left: 0;
+    top: 68vw;
+    height: 70vw;
+ 
+}
+#front-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#graphic-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mag-cop {
+    position: absolute;
+    top: 95vw;
+    width: 50%;
+    right: 0;
+    height:43vw;
+    background-color: white;
+    font-family: "ApercuProBold";
+    font-size: 4.5vw;
+}
+
+.mag-message {
+    width: 70%;
+    text-align: right;
+    margin-top:5vw;
+    right: 0;
+    margin-left: 12vw;
+}
+
+#vol {
+    font-family: "ApercuProMedium";
+}
+.collation-of {
+    font-size: 1.8vw;
+    width: 75%;
+    text-align: right;
+    margin-top: 1.5vw;
+    right: 0;
+    margin-left: 9.7vw;
+}
+
+
+#subscribe-button {
+    position: absolute;
+    right:0;
+    margin-right: 2.6vw;
+    top: 132.2vw;
+    background-color:#ffd451;
+    width: 8.5vw;
+    height: 3.2vw;
+    font-family: "ApercuProBold";
+    font-size: 1vw;
+    border: none;
+    /* box-shadow: none; */
+    /* box-sizing: border-box; */
+    transition-duration: 0.1s;
+    transition-property: background-colour;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+}
+
+#subscribe-button:hover {
+    border: 1px solid black;
+}
+
+#email-here {
+    position: absolute;
+    /* z-index: 1; */
+    margin-top: 132.2vw;
+    width: 33vw;
+    left: 50%;
+    top: 0;
+    margin-left: 4.5vw;
+    background-color: #e1e0e0;
+    text-align: left;
+    font-family: "ApercuProBold";
+    font-size: 1vw;
+    height: 1.2vw;
+    /* border: none;
+    box-sizing: border-box; */
+    /* padding-left: 20px;
+    padding-top: 9px; */
+    resize: none;
+    transition-duration: 0.1s;
+    transition-property: border;
+    /* text-align: center; */
+    box-shadow: none;
+    border: none;
+    padding-top: 1vw;
+    padding-inline-start: 0.8vw;
+    padding-bottom: 1vw;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+#email-here:hover {
+    border: 1px solid black;
+}
+
+.interaction-tile {
+    background-color: #ffd451;
+    position: absolute;
+    left: 0;
+    width:100%;
+    top:138vw;
+    height: 13vw;
+}
+
+#interaction {
+    font-family: "ApercuProBold"; 
+    line-height: 2vw; 
+    letter-spacing: 0.02vw; 
+    font-size: 1.5vw; 
+    margin-left: 3.2vw;
+    margin-top: 1.8vw;  
+}
+
+.got-any {
+    font-family: "TiffanyStdDemi";
+    font-size: 2.7vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+}
+
+.footer-details ul { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.bottom-footer-section { 
+    background-color: #000; 
+    color: #fff; 
+    padding-top: 1vw; 
+    padding-bottom: 5vw; 
+}
+
+.detail-title p { 
+    font-family: "ApercuProBold"; 
+    line-height: 2vw; 
+    letter-spacing: 0.02vw; 
+    font-size: 1.5vw; 
+    text-align: left;
+    margin-left: 3.2vw;
+}
+
+.detail-heading { 
+    font-family: "ApercuProBold"; 
+    font-size: 2.7vw; 
+    line-height: 3vw;  
+    letter-spacing: 0.05vw; 
+    padding-top: 1vw; 
+    font-weight: normal; 
+    text-align: left;
+    margin-left: 5vw; 
+    width:60%; 
+    word-wrap: break-word; 
+    margin-top: 1.5vw;
+}
+
+.bottom-footer-section .footer-details a { 
+    text-decoration: none; 
+    color: #fff; 
+}
+
+.footer-mail-link, .footer-call-link { 
+    font-family: "ApercuProMono";  
+    font-size: 1.5vw; 
+    font-weight: 300; 
+    width: 100%; 
+}
+
+
+.footer-call-link a, .footer-mail-link a { 
+    font-family: "ApercuProBold"; 
+    line-height: 0.02vw; 
+    font-weight: normal; 
+}
+
+
+.footer-call-link { 
+    padding-top: 0px; 
+}
+
+.footer-address li { 
+    float: left; 
+    padding: 0 0.9vw; 
+    position: relative; 
+}
+
+.contact-details li { 
+    font-family: "ApercuProMono"; 
+    font-size: 1.1vw; 
+    line-height: 1.2vw; 
+    font-weight: 300; 
+    letter-spacing: 0.02vw; 
+    list-style-type: none; 
+}
+
+.footer-address .contact-details li:after { 
+    content: "|"; 
+    position: absolute; 
+    top: 0px; 
+    right: -0.4vw; 
+}
+
+.footer-address .contact-details li:last-child:after { 
+    display: none; 
+}
+
+.contact-details { 
+    margin-top:0px; 
+    margin-left: 4.5vw !important; 
+}
+
+.contact-content { 
+    margin-top: 6vw;  
+    position: absolute; 
+    right: 0; 
+    top: 0;
+    text-align: left; 
+    margin-right: 3.2vw;
+}
+
+.contact-content ul li {
+    margin: 0; 
+    line-height: 0.5em;
+}
+
+.contact-details a:hover {
+    color: #ffd451;
+}
+.contact-content a:hover {
+    color: #ffd451;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0% ; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: black; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden;
+    padding-top: 4vw; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    padding-top:21vw;
+    transition: 0.8s;
+}
+ 
+/* The navigation menu links */
+#about, #contact, #magazine, #projects {
+    margin-top: -1.5vw;
+    padding: 2vw 0.4vw 0.4vw 2vw;
+    text-decoration: none;
+    font-family: "ApercuProBold";
+    font-size: 2.2vw;
+    color:white;
+    display: block;
+    transition: 0.3s;
+    text-align: center;   
+}
+
+#copyright {
+    font-family: "ApercuProMono";
+    color: white;
+    text-align: center;
+    display: block;
+    margin-top: 4.5vw;
+    font-size: 1.1vw;
+    transition: 0.3s;
+    margin-left: 2vw;
+}
+ 
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, #about:hover, #contact:hover, #magazine:hover, #projects:hover {
+    color: #ffd451;
+}
+
+#circle-base:focus {
+    background-color: #ffd451;
+}
+
+#circle-nav:focus {
+    background-color: #ffd451;
+}
+
+#circle-nav:hover {
+    background-color: #ffd451;
+}
+ 
+/* Position and style the close button (top right corner) */
+.closebtn, .circle-area {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    margin-top: 2.5vw;
+    right: 0vw;
+    margin-right: 2.7vw;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    
+}
+
+.circle-area {
+    background-color: black;
+}
+
+.circle-area:hover {
+    background-color: #ffd451;
+}
+
+
+#WorkingOn:focus {
+    color:  #ffd451;
+}
+
+#numberlink:focus {
+    color: #ffd451;
+}
+
+.contact-details li:focus {
+    color: #ffd451;
+}
+
+#loadingscreen { 
+    will-change: opacity;
+    height: 100%; /* 100% Full-height */
+    width: 100% ;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color:#7669F4; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden;
+    transition: 2s;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+#cilviasvg {
+    will-change: opacity, scale;
+    perspective: 50em;
+    scale: 1;
+}
+
+#buttonbehance {
+    position: absolute;
+    margin-left: 57vw;
+    top: 6.4vw;
+    width: 15vw;
+    height:3.5vw;
+    border-radius: 2vw 2vw 2vw 2vw;
+    font-family: "ApercuProMedium";
+    font-size: 1.1vw;
+    background-color: white; 
+    color: black;
+    font-style: none;
+    text-decoration: none;
+}
+#buttonbehance a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+#buttonbehance:hover {
+    border: 1px solid black;
+}
+
+@media only screen and (max-width:1360px) {
+    #buttonbehance {
+        font-size: 1vw;
+    }
+    @media only screen and (max-width:1250px) {
+
+        @media only screen and (max-width: 1200px) {
+
+            @media only screen and (max-width: 1100px) {
+
+                #CilviaThree {
+                    display: none;
+                }
+
+                @media only screen and (max-width: 900px) {
+                    .collation-of {
+                        font-size: 1.6vw;
+                    }
+
+                    .project-titles {
+                        margin-right: 9vw;
+                        font-size:2.6vw;
+                    }
+
+                    #CilviaTwo {
+                        display: none;
+                    }
+                    #CilviaThree {
+                        display: none;
+                    }
+                     #heading-line {
+                        display: none;
+                    } 
+
+                    @media only screen and (max-width: 700px) {
+                        @media (orientation:portrait) {
+                            .circle-area, .closebtn {
+                                display: none
+                            }
+                            #subscribe-button, #email-here {
+                                margin-top: 140vw;    
+                            }
+                        }
+                    }
+                };  
+            };
+        };
+    };
+};

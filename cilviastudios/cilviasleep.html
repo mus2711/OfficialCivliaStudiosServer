@@ -1,0 +1,98 @@
+<!doctype html>
+<head>
+    <html lang="en-gb">
+    <meta charset="utf-8">
+    <title>CILVIA STUDIOS</title>
+    <link rel="stylesheet" href="./sleep.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="module" src="./sleepmain.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+</head>
+
+<body>
+    <header  id="site-header" class="cilvia-header" role="banner" data-aos="fade">
+        <ul class="title-list">
+            <li tabindex="0" id="CilviaOne"><a id="CilviaOnelink" href="index.html" title="home">CILVIA STUDIOS</a></li>
+        </ul>
+        <span id="heading-line"></span>
+        <div> 
+            <button class="circle-area" id="circle-base"></button>
+            <div id="sideNavigation" class="sidenav" tabindex="0">
+                <button class="closebtn" id="circle-nav"></button>
+                <nav id="nav-test" tabindex="0">
+                    <a id="about" class ="nav-list" href="#">About</a>
+                    <a id ="projects" class ="nav-list" href="./projects.html">Projects</a>
+                    <a id="magazine" class ="nav-list" href="#">Magazine</a>
+                    <a id="contact" class ="nav-list" href="#contact-us">Contact</a>
+                    <a id="copyright" class ="nav-list">&copy; CILVIA STUDIOS 2020</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main id="main">
+        <div id="mainphoto" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="700">
+            <img src="./images/squares/cssqr.png">
+        </div>
+        <div id="info" data-aos="fade-left" data-aos-duration="700">
+            <h1>Cilvia Sleep</h1>
+        </div>
+        <a id="copytag" data-aos="fade-left" data-aos-duration="700">&copy; MUSTAFA AL QURAISHI, CILVIA STUDIOS 2020</a>
+        <div>
+            <p id="description" data-aos="fade-left" data-aos-duration="700">
+                With nearly a third of the population suffering from insomnia, and its associated harmful symptoms including: depression, 
+                low energy and neurodegenerative diseases. This project has devolved into targeting a solution that 
+                will aim to address and aid people suffering from acute or chronic insomnia. By targeting root causes 
+                of sleep prevention, the solution will help to neutralise the issues causing loss of 
+                sleep such as circadian rhythm disruption via blue light exposure due to late night 
+                phone use and utilise aromatherapy and deep sleep audio in order to relax the user 
+                and aid in a better night’s sleep. </break>
+
+                It simulates relaxing environments by sensory stimulation techniques to induce a 
+                better nights sleep. With use of aromas and audio to relax and immerse the user in their 
+                favourite places. Transporting the user from their bedroom to their favourite relaxing environments such as the beach. </break>
+
+                It limits late night phone use, with built in features such as phone lock mode and the purposed placement of the phone on the wireless charging pad inhibits the user from using their phone. It uses red light therapy to induce melatonin production to aid in relaxation, as the light pulsates at a soothing, gentle rate. 
+            </p>
+            <button id="buttonbehance" data-aos="fade-left" data-aos-duration="700">
+                <a href="https://www.behance.net/gallery/95641413/Cilvia-Sleep-%282019%29">
+                    View project on Behance</a>
+            </button>
+            
+        </div>
+        <div id="usersection" data-aos="fade">
+            <div id="commentsubmission">
+                <span id="commentline"></span>
+                <p id="comment-here">Comment Here<p>
+                <textarea id="name" rows="2" cols="35" placeholder="Name"></textarea>
+                <!-- <textarea id="email"  rows="2" cols="35" placeholder="Email"></textarea> -->
+                <textarea id ="feedback" rows="8" cols="68" wrap="hard" placeholder="Feedback here..."></textarea>
+                <button id="commentbutton">Comment</button>
+                <div id="bottompaddingcomment"></div>
+            </div>
+
+            <div id="userpanel">
+                <p id="nocomments">0 Comments</p>
+                <div id="commentpanel">
+                    <section class="commentsection" id="usercomments">
+                        <template id="user-comment">
+                            <p name ="username" id = "commentname" autocomplete ="yes"></p>
+                            <p name="comment" id = "thecomment" class="from-user"></p>
+                            <p name="seperator" id="indicommentline"></p>
+                        </template>
+                    </section>
+                    <div id="bottompadding"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>

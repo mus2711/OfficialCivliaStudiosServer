@@ -1,0 +1,103 @@
+<!doctype html>
+<head>
+    <html lang="en-gb">
+    <meta charset="utf-8">
+    <title>CILVIA STUDIOS</title>
+    <link rel="stylesheet" href="./table.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="module" src="./table.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+</head>
+
+<body>
+    <header  id="site-header" class="cilvia-header" role="banner" data-aos="fade">
+        <ul class="title-list">
+            <li tabindex="0" id="CilviaOne"><a id="CilviaOnelink" href="index.html" title="home">CILVIA STUDIOS</a></li>
+        </ul>
+        <span id="heading-line"></span>
+        <div> 
+            <button class="circle-area" id="circle-base"></button>
+            <div id="sideNavigation" class="sidenav" tabindex="0">
+                <button class="closebtn" id="circle-nav"></button>
+                <nav id="nav-test" tabindex="0">
+                    <a id="about" class ="nav-list" href="#">About</a>
+                    <a id ="projects" class ="nav-list" href="./projects.html">Projects</a>
+                    <a id="magazine" class ="nav-list" href="#">Magazine</a>
+                    <a id="contact" class ="nav-list" href="#contact-us">Contact</a>
+                    <a id="copyright" class ="nav-list">&copy; CILVIA STUDIOS 2020</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main id="main">
+        <div id="mainphoto" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="700">
+            <img src="./images/project-tile/total_comp_2020-Sep-30_03-47-13PM-000_CustomizedView16900612804_jpg.jpg">
+        </div>
+        <div id="info" data-aos="fade-left" data-aos-duration="700">
+            <h1>A Furniture Colletion</h1>
+        </div>
+        <a id="copytag" data-aos="fade-left" data-aos-duration="700">&copy; MUSTAFA AL QURAISHI, CILVIA STUDIOS 2020</a>
+        <div>
+            <p id="description" data-aos="fade-left" data-aos-duration="700">
+                This collection is an exploration and challenge of furniture pieces. With a specific focus on the composition 
+                of geometries and materials to compliment and juxtapose each other, this collection consists of a stripped back 
+                minimalist look akin to a modernist era piece. The collection celebrates the use of metal within furniture, as the a 
+                rough anodised aluminium is found throughout each piece. 
+
+                The mechanical stool is a robust and perhaps uncomfortable piece, cold to the touch, with visible bolts, and little 
+                cushioning the stool is not created to be comfortable, yet to be a statement piece. The stool like the rest, of the 
+                collection boasts a circular form, yet this is juxtaposed with the table, with a contoured surface, the tension line 
+                offsets the smooth surface and is then met with the back lip of the table curving up again. With further finishing by 
+                a sectored flat front, the table offers a sexy and modern take on the desk table. The composition of table takes a turn 
+                from the pure metal aesthetic with the use of mahogany legs, offsetting the cold feel of the collection by bringing a sense of 
+                warmth. The dark gloss nature of the mahogany contrasts with the grey trough texture of the aluminium. The legs are further 
+                finished with rubber bottoms, akin to the desk lamp which has a rubber bottom piece. 
+
+                Offering a fresh take on the common desk lamp, the aim of the lamp was to have a single touch point where the user can direct 
+                light at all angles and directions and to emphasise the mechanical aspect of lamp's function, tying the table and stool together. 
+                A Furniture Series is a blend of new materials, forms and styles invoking a cold futuristic look rooted in a simple, warm reality.
+
+            </p>
+            <button id="buttonbehance" data-aos="fade-left" data-aos-duration="700">
+                <a href="https://www.behance.net/gallery/105312321/A-Furniture-Series">
+                    View project on Behance</a>
+            </button>
+            
+        </div>
+        <div id="usersection" data-aos="fade">
+            <div id="commentsubmission">
+                <span id="commentline"></span>
+                <p id="comment-here">Comment Here<p>
+                <textarea id="name" rows="2" cols="35" placeholder="Name"></textarea>
+                <!-- <textarea id="email"  rows="2" cols="35" placeholder="Email"></textarea> -->
+                <textarea id ="feedback" rows="8" cols="68" wrap="hard" placeholder="Feedback here..."></textarea>
+                <button id="commentbutton">Comment</button>
+                <div id="bottompaddingcomment"></div>
+            </div>
+
+            <div id="userpanel">
+                <p id="nocomments">0 Comments</p>
+                <div id="commentpanel">
+                    <section class="commentsection" id="usercomments">
+                        <template id="user-comment">
+                            <p name ="username" id = "commentname" autocomplete ="yes"></p>
+                            <p name="comment" id = "thecomment" class="from-user"></p>
+                            <p name="seperator" id="indicommentline"></p>
+                        </template>
+                    </section>
+                    <div id="bottompadding"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>

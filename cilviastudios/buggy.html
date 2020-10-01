@@ -1,0 +1,99 @@
+<!doctype html>
+<head>
+    <html lang="en-gb">
+    <meta charset="utf-8">
+    <title>CILVIA STUDIOS</title>
+    <link rel="stylesheet" href="./buggy.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="module" src="./buggymain.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+</head>
+
+<body>
+    <header  id="site-header" class="cilvia-header" role="banner" data-aos="fade">
+        <ul class="title-list">
+            <li tabindex="0" id="CilviaOne"><a id="CilviaOnelink" href="index.html" title="home">CILVIA STUDIOS</a></li>
+        </ul>
+        <span id="heading-line"></span>
+        <div> 
+            <button class="circle-area" id="circle-base"></button>
+            <div id="sideNavigation" class="sidenav" tabindex="0">
+                <button class="closebtn" id="circle-nav"></button>
+                <nav id="nav-test" tabindex="0">
+                    <a id="about" class ="nav-list" href="#">About</a>
+                    <a id ="projects" class ="nav-list" href="./projects.html">Projects</a>
+                    <a id="magazine" class ="nav-list" href="#">Magazine</a>
+                    <a id="contact" class ="nav-list" href="#contact-us">Contact</a>
+                    <a id="copyright" class ="nav-list">&copy; CILVIA STUDIOS 2020</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main id="main">
+        <div id="mainphoto" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="700">
+            <img src="./images/project-tile/explotypev2_2020-May-25_02-40-50PM-000_CustomizedView6426156986_jpg.jpg">
+        </div>
+        <div id="info" data-aos="fade-left" data-aos-duration="700">
+            <h1>Aygo Urban Buggy</h1>
+        </div>
+        <a id="copytag" data-aos="fade-left" data-aos-duration="700">&copy; MUSTAFA AL QURAISHI, CILVIA STUDIOS 2020</a>
+        <div>
+            <p id="description" data-aos="fade-left" data-aos-duration="700">
+                Separable in two parts: the baby seat and its frame, Aygo can be folded within seconds. 
+                With one hand, the seat is detached from the frame without having to take the baby out. 
+                With the other hand, the frame is collapsed and carried around. 
+                The innovative folding system enables parents access to previously inaccessible obstacles in urban areas, such as stairs, 
+                and allows parents to navigate through crowded spaces. 
+                These include transport facilities, such as the underground tube. </break>
+
+                Designed primarily for newborn babies, the seat can be carried in one hand while the baby is safely held. 
+                The inner shell seat can be adjusted in angle and therefore follows the 
+                necessary evolution of the baby’s posture. </break>
+
+                As for the frame, it consists of a one-hand folding mechanism. 
+                Its light weight allows portability but it’s heavy and robust enough to ensure 
+                stability along with the angled legs that cover a greater width and span.
+            </p>
+            <button id="buttonbehance" data-aos="fade-left" data-aos-duration="700">
+                <a href="https://www.behance.net/gallery/98519853/Aygo-Baby-Buggy-%282020%29">
+                    View project on Behance</a>
+            </button>
+            
+        </div>
+        <div id="usersection" data-aos="fade">
+            <div id="commentsubmission">
+                <span id="commentline"></span>
+                <p id="comment-here">Comment Here<p>
+                <textarea id="name" placeholder="Name"></textarea>
+                <!-- <textarea id="email"  rows="2" cols="35" placeholder="Email"></textarea> -->
+                <textarea id ="feedback" wrap="hard" placeholder="Feedback here..."></textarea>
+                <button id="commentbutton">Comment</button>
+                <div id="bottompaddingcomment"></div>
+            </div>
+
+            <div id="userpanel">
+                <p id="nocomments">0 Comments</p>
+                <div id="commentpanel">
+                    <section class="commentsection" id="usercomments">
+                        <template id="user-comment">
+                            <p name ="username" id = "commentname" autocomplete ="yes"></p>
+                            <p name="comment" id = "thecomment" class="from-user"></p>
+                            <p name="seperator" id="indicommentline"></p>
+                        </template>
+                    </section>
+                    <div id="bottompadding"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
